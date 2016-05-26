@@ -33,16 +33,3 @@ begin
 rescue => e
   # debug..
 end
-
-__END__
-
-# Usage:
-
-1.
-sidekiq -r ./lib/bootstrapper.rb
-
-2.
-./main.rb --monitor-queue
-
-3.
-./main.rb --queue-files
